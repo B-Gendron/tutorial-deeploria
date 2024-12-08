@@ -1,0 +1,9 @@
+Tutorial about LLM fine-tuning for DeepLoria
+
+1-2h
+
+Intro to language model
+	- attention heads
+	- CLM, autoregressive
+
+Theoretical + practical task
