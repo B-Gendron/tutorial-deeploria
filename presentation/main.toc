@@ -1,2 +1,2 @@
-\babel@toc {english}{}
+\babel@toc {english}{}\relax 
 \beamer@sectionintoc {1}{Motivations}{2}{0}{1}
