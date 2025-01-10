@@ -2,7 +2,7 @@
   "citation": "",
   "description": "",
   "features": {
-    "text": {
+    "baseline": {
       "dtype": "string",
       "_type": "Value"
     }
