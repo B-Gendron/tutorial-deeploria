@@ -506,6 +506,14 @@ INPUT ./figures/llm_9.png
 INPUT ./figures/llm_9.png
 INPUT ./figures/llm_9.png
 INPUT ./figures/llm_9.png
+INPUT ./figures/llm_autoregressive_1.png
+INPUT ./figures/llm_autoregressive_1.png
+INPUT ./figures/llm_autoregressive_1.png
+INPUT ./figures/llm_autoregressive_1.png
+INPUT ./figures/llm_autoregressive_2.png
+INPUT ./figures/llm_autoregressive_2.png
+INPUT ./figures/llm_autoregressive_2.png
+INPUT ./figures/llm_autoregressive_2.png
 OUTPUT main.nav
 OUTPUT main.toc
 OUTPUT main.snm
