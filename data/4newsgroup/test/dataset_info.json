@@ -3,17 +3,10 @@
   "description": "",
   "features": {
     "data": {
-      "feature": {
-        "dtype": "string",
-        "_type": "Value"
-      },
-      "_type": "Sequence"
-    },
-    "target": {
-      "dtype": "int64",
+      "dtype": "string",
       "_type": "Value"
     },
-    "target_name": {
+    "label": {
       "dtype": "string",
       "_type": "Value"
     }
