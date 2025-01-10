@@ -13,16 +13,13 @@
   },
   "download_size": 7832731,
   "features": {
-    "id": {
+    "en": {
       "dtype": "string",
       "_type": "Value"
     },
-    "translation": {
-      "languages": [
-        "en",
-        "fr"
-      ],
-      "_type": "Translation"
+    "baseline": {
+      "dtype": "string",
+      "_type": "Value"
     }
   },
   "homepage": "http://opus.nlpl.eu/Tatoeba.php",
