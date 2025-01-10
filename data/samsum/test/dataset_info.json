@@ -12,15 +12,11 @@
   },
   "download_size": 2944100,
   "features": {
-    "id": {
-      "dtype": "string",
-      "_type": "Value"
-    },
     "dialogue": {
       "dtype": "string",
       "_type": "Value"
     },
-    "summary": {
+    "baseline": {
       "dtype": "string",
       "_type": "Value"
     }
