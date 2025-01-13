@@ -20,7 +20,10 @@
 \usepackage{amsfonts}
 \usepackage{listings}
 
-% Links to other files
+\usepackage{xcolor}
+\usepackage{pifont}
+\usepackage[natbib=true,style=numeric,backend=bibtex,useprefix=true]{biblatex}
+\addbibresource{references.bib}
 \graphicspath{{figures/}}
 
 \newcommand{\manualcite}[1]{\textcolor{gray}{\small[#1]}}
@@ -39,6 +42,7 @@
 \definecolor{roose}{RGB}{226, 0, 122}
 \definecolor{gold}{rgb}{1.0, 0.84, 0.0}
 \definecolor{silver}{rgb}{0.75, 0.75, 0.75}
+\definecolor{darkgreen}{rgb}{0.0, 0.8, 0.0}
 \setbeamercolor{title}{bg=deepblue, fg=white} 
 \setbeamercolor{frametitle}{bg=deepblue, fg=white}
 \setbeamercolor{footline}{bg=deepblue, fg=white}
@@ -77,20 +81,31 @@
 
 \begin{frame}{About Me}
 \begin{center}
-    2nd-year PhD student - Knowledge-Enhanced Language Models (Université de Lorraine)
+    \textbf{2nd-year PhD student - Knowledge-Enhanced Language Models}
 \end{center}
-\vspace*{10pt}
-Background \& Research
+\vspace{0.5cm}
+Research Focus
     \begin{itemize}
-        \item Maths engineering degree
-        \item Master Thesis: Meta-Learning in Conversational Context
-        \item PhD Topic: Controlled Conversational Models through Conversation-Dedicated Ontology
+        \item Controlled Conversational Models through Conversation-Dedicated Ontology
         \item \textsl{Keywords: Large Language Models (LLMs), Conversational Agents, Ontologies, Fine-Tuning}
     \end{itemize}
 
+% Background
+%     \begin{itemize}
+%         \item Maths engineering degree
+%         \item Master Thesis: Meta-Learning in Conversational Context
+%     \end{itemize}
+
 % I study how to adapt the usual fine-tuning procedures to integrate external knowledge from an ontology. My PhD also require to build this external knowledge, so I have to develop a full, end-to-end hybridization pipeline between LLMs and Ontologies. 
 % Hence, I developed several fine-tuning procedures for my research at Loria.
-More info: \url{b-gendron.github.io}
+% More info: \url{b-gendron.github.io}
+\vspace{0.6cm}
+Experience in LLM fine-tuning
+    \begin{itemize}
+        \item Run pre-defined fine-tuning setups (Causal Language Modeling, Classification,...)
+        \item Develop new fine-tuning pipelines to consider external knowledge
+        \item Focus on textual modality
+    \end{itemize}
 \end{frame}
 
 \section{Context}
@@ -99,109 +114,338 @@ More info: \url{b-gendron.github.io}
 
 \end{frame}
 
-\begin{frame}{Recurrent Models for NLP (1)}
-    
+\begin{frame}{Deep-Learning-Based Sequence Modeling: Recurrent Models (1)}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.45\textwidth]{RNN-unrolled.png}
+        \caption{\centering Illustration of the Recurrent Neural Network (RNN,~\cite{rnn1, rnn2}) architecture\footnote{\tiny Olah, C. (2015). Understanding LSTM Networks. \url{https://colah.github.io/posts/2015-08-Understanding-LSTMs/}}}
+    \end{figure}
+    \begin{columns}
+        \begin{column}{0.5\linewidth}
+            \setbeamertemplate{itemize items}{} % Disable default bullets
+            \begin{itemize}
+                \item {\color{darkgreen}\checkmark} Keep token order
+                \item {\color{darkgreen}\checkmark} Handle variable-length sequences
+                \item {\color{darkgreen}\checkmark} Parameter sharing across the sequence
+            \end{itemize}
+        \end{column}
+        \begin{column}{0.5\linewidth}
+            \setbeamertemplate{itemize items}{} % Disable default bullets
+            \begin{itemize}
+                \item {\color{red}\ding{55}} Exploding and vanishing gradient
+                \item {\color{red}\ding{55}} Long-term dependencies
+                \item {\color{red}\ding{55}} Slow computing, no parallelization
+            \end{itemize}
+        \end{column}
+    \end{columns}
 \end{frame}
 
-\begin{frame}{Recurrent Models for NLP (2)}
-    
+\begin{frame}{Deep-Learning-Based Sequence Modeling: Recurrent Models (2)}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.45\textwidth]{LSTM3-chain.png}
+        \caption{\centering Illustration of the Long Short Term Memory Neural Network (LSTM,~\cite{lstm}) architecture\footnote{\tiny Olah, C. (2015). Understanding LSTM Networks. \url{https://colah.github.io/posts/2015-08-Understanding-LSTMs/}}}
+    \end{figure}
+    \begin{columns}
+        \begin{column}{0.5\linewidth}
+            \setbeamertemplate{itemize items}{} % Disable default bullets
+            \begin{itemize}
+                \item {\color{darkgreen}\checkmark} Keep token order
+                \item {\color{darkgreen}\checkmark} Handle variable-length sequences
+                \item {\color{darkgreen}\checkmark} Parameter sharing across the sequence
+            \end{itemize}
+        \end{column}
+        \begin{column}{0.5\linewidth}
+            \setbeamertemplate{itemize items}{} % Disable default bullets
+            \begin{itemize}
+                \item {\color{darkgreen}\checkmark} No exploding/vanishing gradient
+                \item {\color{darkgreen}\checkmark} Long-term dependencies
+                \item {\color{red}\ding{55}} Slow computing, no parallelization
+            \end{itemize}
+        \end{column}
+    \end{columns}
 \end{frame}
 
-\begin{frame}{The Transformer Model}
-    
-\end{frame}
-
-\begin{frame}{Attention Principle}
+\begin{frame}{Attention Principle~\cite{Bahdanau2014NeuralMT} and Transformer Model~\cite{DBLP:journals/corr/VaswaniSPUJGKP17}}
     
 \end{frame}
 
 \begin{frame}{From Transformer-Based Models to Large Language Models (LLMs)}
 % The liberty of building behind enc only, dec only, enc dec, which structure for which application
-% Very rich range of models and possible applications, even multimodal but I'm not dealing with that in this tutorial
+
+\begin{columns}
+    \begin{column}{0.7\linewidth}
+        \vspace{-0.3cm}
+        \begin{center}
+        \textbf{LLMs scale Transformers by stacking encoders and/or decoders together}
+        \end{center}
+        \vspace{0.6cm}
+        \begin{itemize}
+            \item Parallelizable and optimized versions exist (e.g. quantization)
+            \item Enable deeper and broader knowledge representation
+            \item Large context window allows for more accurate generation
+            \item Trained on massive corpora, enabling zero-shot evaluation
+        \end{itemize}
+    \vspace{0.6cm}
+    $\longrightarrow$ Fine-tuning enhances the capabilities of LLMs, making them versatile for a wide range of tasks
+    \end{column}
+    \begin{column}{0.3\linewidth}
+        \begin{figure}
+            \includegraphics[width=0.45\linewidth]{ed_encoder_decoder.png}
+            \caption{\centering\footnotesize Full Transformer}
+        \end{figure}
+        \vspace{-0.6cm}
+        \begin{figure}
+            \includegraphics[width=0.24\linewidth]{ed_encoder_only.png}
+            \caption{\centering\footnotesize Encoder}
+        \end{figure}
+        \vspace{-0.6cm}
+        \begin{figure}
+            \includegraphics[width=0.24\linewidth]{ed_decoder_only.png}
+            \caption{\centering\footnotesize Decoder}
+        \end{figure}
+    \end{column}
+\end{columns}
 \end{frame}
 
 % slide un peu meta, piste de réflexion et d'ouverture pour close la partie
 \begin{frame}{What Use-Cases of LLMs?}
-    
+    \vspace{-0.5cm}
+    \begin{columns}
+        % Left column with images
+        \begin{column}{0.3\linewidth}
+            \vspace{0.18cm}
+            \begin{center}
+            \textbf{Model Structure}
+            \end{center}
+            \vspace{-0.2cm}
+            \begin{figure}
+                \includegraphics[width=0.50\linewidth]{ed_encoder_decoder.png}
+            \end{figure}
+            \begin{figure}
+                \includegraphics[width=0.28\linewidth]{ed_encoder_only.png}
+            \end{figure}
+            \begin{figure}
+                \includegraphics[width=0.28\linewidth]{ed_decoder_only.png}
+            \end{figure}
+        \end{column}
+
+        \begin{column}{0.3\linewidth}
+            \begin{center}
+            \textbf{Task Examples}
+            \end{center}
+            \begin{itemize}
+                \item Summarization
+                \item Machine Translation
+                \item Question Answering
+            \end{itemize}
+            \vspace{0.3cm}
+            \begin{itemize}
+                \item Sequence Embedding
+                \item Text Classification
+                \item Regression
+            \end{itemize}
+            \vspace{0.3cm}
+            \begin{itemize}
+                \item Text Completion
+                \item Text Generation
+                \item Code Generation
+            \end{itemize}
+        \end{column}
+
+        \begin{column}{0.3\linewidth}
+            \begin{center}
+            \textbf{Model examples}
+            \end{center}
+            \begin{itemize}
+                \item BART~\cite{bart}, mBART~\cite{mbart}
+                \item T5~\cite{t5}, Flan-T5~\cite{flan-t5}
+                \item bert2BERT~\cite{bert2bert}
+            \end{itemize}
+            \vspace{0.3cm}
+            \begin{itemize}
+                \item BERT~\cite{bert}, mBERT~\cite{mbert}
+                \item RoBERTa~\cite{roberta}
+                \item DistilBERT~\cite{distilbert}
+            \end{itemize}
+            \vspace{0.3cm}
+            \begin{itemize}
+                \item GPT-3.5, GPT-4o
+                \item Llama-3~\cite{llama3}
+                \item Qwen2.5~\cite{qwen25technicalreport}
+            \end{itemize}
+        \end{column}
+    \end{columns}
 \end{frame}
 
 \section{Inside a Decoder-Based LLM}
 
-\begin{frame}{Inside a Decoder-Based LLM}
+\begin{frame}{Inside a Decoder-Only LLM}
     \begin{figure}
         \centering
-        \includegraphics[width=0.95\textwidth]{llm_1.png}
+        \includegraphics[width=0.95\textwidth]{llm_1_fixed.png}
     \end{figure}
 \end{frame}
 
-\begin{frame}{Inside a Decoder-Based LLM}
+\begin{frame}{Inside a Decoder-Only LLM}
     \begin{figure}
         \centering
-        \includegraphics[width=0.95\textwidth]{llm_2.png}
+        \includegraphics[width=0.95\textwidth]{llm_2_fixed.png}
     \end{figure}
 \end{frame}
 
-\begin{frame}{Inside a Decoder-Based LLM}
+\begin{frame}{Inside a Decoder-Only LLM}
     \begin{figure}
         \centering
-        \includegraphics[width=0.95\textwidth]{llm_3.png}
+        \includegraphics[width=0.95\textwidth]{llm_3_fixed.png}
     \end{figure}
 \end{frame}
 
-\begin{frame}{Inside a Decoder-Based LLM}
+\begin{frame}{Inside a Decoder-Only LLM}
     \begin{figure}
         \centering
-        \includegraphics[width=0.95\textwidth]{llm_4.png}
+        \includegraphics[width=0.95\textwidth]{llm_4_fixed.png}
     \end{figure}
 \end{frame}
 
-\begin{frame}{Inside a Decoder-Based LLM}
+\begin{frame}{Inside a Decoder-Only LLM}
     \begin{figure}
         \centering
-        \includegraphics[width=0.95\textwidth]{llm_5.png}
+        \includegraphics[width=0.95\textwidth]{llm_5_fixed.png}
     \end{figure}
 \end{frame}
 
-\begin{frame}{Inside a Decoder-Based LLM}
+\begin{frame}{Inside a Decoder-Only LLM}
     \begin{figure}
         \centering
-        \includegraphics[width=0.95\textwidth]{llm_6.png}
-    \end{figure}
-\end{frame}
-
-\begin{frame}{Inside a Decoder-Based LLM}
-    \begin{figure}
-        \centering
-        \includegraphics[width=0.95\textwidth]{llm_7.png}
-    \end{figure}
-\end{frame}
-
-\begin{frame}{Inside a Decoder-Based LLM}
-    \begin{figure}
-        \centering
-        \includegraphics[width=0.95\textwidth]{llm_8.png}
-    \end{figure}
-\end{frame}
-
-\begin{frame}{Inside a Decoder-Based LLM}
-    \begin{figure}
-        \centering
-        \includegraphics[width=0.95\textwidth]{llm_9.png}
+        \includegraphics[width=0.95\textwidth]{llm_6_fixed.png}
     \end{figure}
 \end{frame}
 
 \begin{frame}{The Autoregressive Principle}
     \begin{figure}
         \centering
-        \includegraphics[width=0.95\textwidth]{llm_autoregressive_1.png}
+        \includegraphics[width=0.9\textwidth]{llm_autoregressive_1.png}
     \end{figure}
+    \vspace{1.6cm}
 \end{frame}
 
 \begin{frame}{The Autoregressive Principle}
     \begin{figure}
         \centering
-        \includegraphics[width=0.95\textwidth]{llm_autoregressive_2.png}
+        \includegraphics[width=0.9\textwidth]{llm_autoregressive_2.png}
     \end{figure}
+    \begin{itemize}
+        \item \textbf{Top p}: adjust the range of tokens to consider regarding their probability.
+        \item \textbf{Top k}: choose among the $k$ more likely tokens. Default is 1 (most likely token).
+        \item \textbf{Temperature:} control "creativity" by adding random noise to select less likely tokens.
+    \end{itemize}
+\end{frame}
+
+% Now we know how information flows and is processed inside an LLM. We know better how it is inside.
+% Ready to fine-tune that thing, but which guidelines should we follow
+
+\begin{frame}{How Large are Large Language Models?}
+    \begin{columns}
+        \begin{column}{0.6\linewidth}
+            \vspace{-0.1cm}
+            \begin{table}[]
+                \begin{tabular}{@{}llll@{}}
+                    \toprule
+                    Model       & Parameters & Layers & Context Size  \\ \midrule
+                    Gemini 1.5  & 200B?      & -      & 10M  \\
+                    GPT-4 turbo & 1.8T       & 120    & 128k            \\
+                    Claude 2.1  & 12B        & -      & 200k            \\ \bottomrule
+                \end{tabular}
+                \caption{\centering Some \textsl{closed-source} models specifications}
+            \end{table}
+            \vspace{-0.4cm}
+            \begin{table}[]
+                \begin{tabular}{@{}llll@{}}
+                \toprule
+                Model        & Parameters & Layers & Context Size \\ \midrule
+                Llama 3.3    & 70B        & 80     & 128k           \\
+                Phi 4        & 14B        & 40     & 16k            \\
+                Qwen 2.5     & 0.5B-72B   & 24-80  & 32k - 128k     \\
+                Mistral-v0.3 & 7B         & 32     & 32k            \\ \bottomrule
+                \end{tabular}
+                \caption{\centering Some \textsl{open-weights} models specifications}
+            \end{table}
+        \end{column}
+        \begin{column}{0.4\linewidth}
+            \vspace*{-0.5cm}
+            \begin{center}
+            \textcolor{blue}{\sl Side remark: most LLMs called "open-source" are actually open-weights!}
+            \end{center}
+            \vspace{0.5cm}
+            \begin{itemize}
+                \item Most models involve several gigabytes in RAM GPU to perform inference
+                \item Updating each parameter value during fine-tuning would be too costly
+            \end{itemize}
+            \vspace{0.2cm}
+            $\longrightarrow$ fine-tuning should be \textbf{efficient}
+        \end{column}
+    \end{columns}
+    
+    
+\end{frame}
+
+\begin{frame}{Fine-Tuning as an \textsl{Affinage}: the Cheese Analogy}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.8\textwidth]{pretrain_finetune_1.png}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Fine-Tuning as an \textsl{Affinage}: the Cheese Analogy}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.8\textwidth]{pretrain_finetune_2.png}
+    \end{figure}
+\end{frame}
+
+
+\begin{frame}{Fine-Tuning With Adapters~\cite{houlsby2019parameterefficienttransferlearningnlp}}
+    \begin{columns}
+        \begin{column}{0.5\linewidth}
+            \vspace{-0.2cm}
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.8\textwidth]{llama-adapter-simple.png}
+                \caption{\centering An attention block with adapters}
+            \end{figure}
+        \end{column}
+        \begin{column}{0.5\linewidth}
+            \begin{itemize}
+                \item Adapters
+            \end{itemize}
+        \end{column}
+    \end{columns}
+
+\end{frame}
+
+\begin{frame}{Efficient Fine-Tuning With LoRA Adapters~\cite{hu2021loralowrankadaptationlarge}}
+    \begin{columns}
+        \begin{column}{0.5\linewidth}
+            \vspace{-0.2cm}
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.8\textwidth]{llama-adapter.png}
+                \caption{\centering An attention block with LoRA adapters}
+            \end{figure}
+        \end{column}
+        \begin{column}{0.5\linewidth}
+            \begin{itemize}
+                \item LoRA = Low-Rank Adaptation
+                \item Quantized version QLoRA~\cite{dettmers2023qloraefficientfinetuningquantized}
+            \end{itemize}
+        \end{column}
+    \end{columns}    
+\end{frame}
+
+\begin{frame}[t,allowframebreaks,noframenumbering]
+    \frametitle{References}
+    \printbibliography
 \end{frame}
 
 % - Petit point d'étape, prise de recul. Déjà, "Large" comment ("How large and Large Language Models?")
