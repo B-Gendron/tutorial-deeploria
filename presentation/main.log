@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.16)  13 JAN 2025 11:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.16)  13 JAN 2025 23:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1282,40 +1282,40 @@ Package pdftex.def Info: figures/LSTM3-chain.png  used on input line 167.
 <figures/ed_encoder_decoder.png, id=118, 215.3646pt x 144.54pt>
 File: figures/ed_encoder_decoder.png Graphic file (type png)
 <use figures/ed_encoder_decoder.png>
-Package pdftex.def Info: figures/ed_encoder_decoder.png  used on input line 209.
+Package pdftex.def Info: figures/ed_encoder_decoder.png  used on input line 210.
 (pdftex.def)             Requested size: 58.50163pt x 39.2623pt.
 <figures/ed_encoder_only.png, id=119, 114.1866pt x 144.54pt>
 File: figures/ed_encoder_only.png Graphic file (type png)
 <use figures/ed_encoder_only.png>
-Package pdftex.def Info: figures/ed_encoder_only.png  used on input line 209.
+Package pdftex.def Info: figures/ed_encoder_only.png  used on input line 210.
 (pdftex.def)             Requested size: 31.2018pt x 39.49608pt.
 <figures/ed_decoder_only.png, id=120, 115.632pt x 144.54pt>
 File: figures/ed_decoder_only.png Graphic file (type png)
 <use figures/ed_decoder_only.png>
-Package pdftex.def Info: figures/ed_decoder_only.png  used on input line 209.
+Package pdftex.def Info: figures/ed_decoder_only.png  used on input line 210.
 (pdftex.def)             Requested size: 31.2018pt x 39.00204pt.
  [7
 
 {/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc} <./figures/ed_encoder_decoder.png> <./figures/ed_encoder_only.png> <./figures/ed_decoder_only.png>]
 File: figures/ed_encoder_decoder.png Graphic file (type png)
 <use figures/ed_encoder_decoder.png>
-Package pdftex.def Info: figures/ed_encoder_decoder.png  used on input line 279.
-(pdftex.def)             Requested size: 65.00226pt x 43.62477pt.
+Package pdftex.def Info: figures/ed_encoder_decoder.png  used on input line 280.
+(pdftex.def)             Requested size: 54.168pt x 36.35324pt.
 File: figures/ed_encoder_only.png Graphic file (type png)
 <use figures/ed_encoder_only.png>
-Package pdftex.def Info: figures/ed_encoder_only.png  used on input line 279.
-(pdftex.def)             Requested size: 36.4011pt x 46.07729pt.
+Package pdftex.def Info: figures/ed_encoder_only.png  used on input line 280.
+(pdftex.def)             Requested size: 30.33394pt x 38.39554pt.
 File: figures/ed_decoder_only.png Graphic file (type png)
 <use figures/ed_decoder_only.png>
-Package pdftex.def Info: figures/ed_decoder_only.png  used on input line 279.
-(pdftex.def)             Requested size: 36.4011pt x 45.50166pt.
+Package pdftex.def Info: figures/ed_decoder_only.png  used on input line 280.
+(pdftex.def)             Requested size: 30.33394pt x 37.91695pt.
  [8
 
 ]
 <figures/llm_1_fixed.png, id=163, 2771.5545pt x 1326.1545pt>
 File: figures/llm_1_fixed.png Graphic file (type png)
 <use figures/llm_1_fixed.png>
-Package pdftex.def Info: figures/llm_1_fixed.png  used on input line 288.
+Package pdftex.def Info: figures/llm_1_fixed.png  used on input line 289.
 (pdftex.def)             Requested size: 411.67549pt x 196.97198pt.
  [9
 
@@ -1323,7 +1323,7 @@ Package pdftex.def Info: figures/llm_1_fixed.png  used on input line 288.
 <figures/llm_2_fixed.png, id=172, 2771.5545pt x 1326.1545pt>
 File: figures/llm_2_fixed.png Graphic file (type png)
 <use figures/llm_2_fixed.png>
-Package pdftex.def Info: figures/llm_2_fixed.png  used on input line 295.
+Package pdftex.def Info: figures/llm_2_fixed.png  used on input line 296.
 (pdftex.def)             Requested size: 411.67549pt x 196.97198pt.
  [10
 
@@ -1331,7 +1331,7 @@ Package pdftex.def Info: figures/llm_2_fixed.png  used on input line 295.
 <figures/llm_3_fixed.png, id=181, 2771.5545pt x 1326.1545pt>
 File: figures/llm_3_fixed.png Graphic file (type png)
 <use figures/llm_3_fixed.png>
-Package pdftex.def Info: figures/llm_3_fixed.png  used on input line 302.
+Package pdftex.def Info: figures/llm_3_fixed.png  used on input line 303.
 (pdftex.def)             Requested size: 411.67549pt x 196.97198pt.
  [11
 
@@ -1339,7 +1339,7 @@ Package pdftex.def Info: figures/llm_3_fixed.png  used on input line 302.
 <figures/llm_4_fixed.png, id=190, 2771.5545pt x 1326.1545pt>
 File: figures/llm_4_fixed.png Graphic file (type png)
 <use figures/llm_4_fixed.png>
-Package pdftex.def Info: figures/llm_4_fixed.png  used on input line 309.
+Package pdftex.def Info: figures/llm_4_fixed.png  used on input line 310.
 (pdftex.def)             Requested size: 411.67549pt x 196.97198pt.
  [12
 
@@ -1347,7 +1347,7 @@ Package pdftex.def Info: figures/llm_4_fixed.png  used on input line 309.
 <figures/llm_5_fixed.png, id=199, 2771.5545pt x 1326.1545pt>
 File: figures/llm_5_fixed.png Graphic file (type png)
 <use figures/llm_5_fixed.png>
-Package pdftex.def Info: figures/llm_5_fixed.png  used on input line 316.
+Package pdftex.def Info: figures/llm_5_fixed.png  used on input line 317.
 (pdftex.def)             Requested size: 411.67549pt x 196.97198pt.
  [13
 
@@ -1355,7 +1355,7 @@ Package pdftex.def Info: figures/llm_5_fixed.png  used on input line 316.
 <figures/llm_6_fixed.png, id=210, 2771.5545pt x 1326.1545pt>
 File: figures/llm_6_fixed.png Graphic file (type png)
 <use figures/llm_6_fixed.png>
-Package pdftex.def Info: figures/llm_6_fixed.png  used on input line 323.
+Package pdftex.def Info: figures/llm_6_fixed.png  used on input line 324.
 (pdftex.def)             Requested size: 411.67549pt x 196.97198pt.
  [14
 
@@ -1363,7 +1363,7 @@ Package pdftex.def Info: figures/llm_6_fixed.png  used on input line 323.
 <figures/llm_autoregressive_1.png, id=219, 1666.72687pt x 655.30823pt>
 File: figures/llm_autoregressive_1.png Graphic file (type png)
 <use figures/llm_autoregressive_1.png>
-Package pdftex.def Info: figures/llm_autoregressive_1.png  used on input line 331.
+Package pdftex.def Info: figures/llm_autoregressive_1.png  used on input line 332.
 (pdftex.def)             Requested size: 390.00697pt x 153.33751pt.
  [15
 
@@ -1371,12 +1371,12 @@ Package pdftex.def Info: figures/llm_autoregressive_1.png  used on input line 33
 <figures/llm_autoregressive_2.png, id=228, 1669.07565pt x 655.85025pt>
 File: figures/llm_autoregressive_2.png Graphic file (type png)
 <use figures/llm_autoregressive_2.png>
-Package pdftex.def Info: figures/llm_autoregressive_2.png  used on input line 343.
+Package pdftex.def Info: figures/llm_autoregressive_2.png  used on input line 344.
 (pdftex.def)             Requested size: 390.00697pt x 153.24417pt.
  [16
 
  <./figures/llm_autoregressive_2.png>]
-Overfull \vbox (11.21335pt too high) detected at line 391
+Overfull \vbox (11.21335pt too high) detected at line 392
  []
 
 [17
@@ -1385,7 +1385,7 @@ Overfull \vbox (11.21335pt too high) detected at line 391
 <figures/pretrain_finetune_1.png, id=244, 328.1058pt x 184.64986pt>
 File: figures/pretrain_finetune_1.png Graphic file (type png)
 <use figures/pretrain_finetune_1.png>
-Package pdftex.def Info: figures/pretrain_finetune_1.png  used on input line 398.
+Package pdftex.def Info: figures/pretrain_finetune_1.png  used on input line 399.
 (pdftex.def)             Requested size: 346.67653pt x 195.10521pt.
  [18
 
@@ -1393,7 +1393,7 @@ Package pdftex.def Info: figures/pretrain_finetune_1.png  used on input line 398
 <figures/pretrain_finetune_2.png, id=254, 328.1058pt x 184.64986pt>
 File: figures/pretrain_finetune_2.png Graphic file (type png)
 <use figures/pretrain_finetune_2.png>
-Package pdftex.def Info: figures/pretrain_finetune_2.png  used on input line 405.
+Package pdftex.def Info: figures/pretrain_finetune_2.png  used on input line 406.
 (pdftex.def)             Requested size: 346.67653pt x 195.10521pt.
  [19
 
@@ -1401,10 +1401,10 @@ Package pdftex.def Info: figures/pretrain_finetune_2.png  used on input line 405
 <figures/llama-adapter-simple.png, id=264, 190.25078pt x 205.42747pt>
 File: figures/llama-adapter-simple.png Graphic file (type png)
 <use figures/llama-adapter-simple.png>
-Package pdftex.def Info: figures/llama-adapter-simple.png  used on input line 425.
+Package pdftex.def Info: figures/llama-adapter-simple.png  used on input line 426.
 (pdftex.def)             Requested size: 173.33826pt x 187.16498pt.
 
-Overfull \vbox (5.47559pt too high) detected at line 425
+Overfull \vbox (5.47559pt too high) detected at line 426
  []
 
 [20
@@ -1413,22 +1413,22 @@ Overfull \vbox (5.47559pt too high) detected at line 425
 <figures/llama-adapter.png, id=275, 190.25078pt x 205.9695pt>
 File: figures/llama-adapter.png Graphic file (type png)
 <use figures/llama-adapter.png>
-Package pdftex.def Info: figures/llama-adapter.png  used on input line 444.
+Package pdftex.def Info: figures/llama-adapter.png  used on input line 445.
 (pdftex.def)             Requested size: 173.33826pt x 187.6588pt.
 
-Overfull \vbox (5.9694pt too high) detected at line 444
+Overfull \vbox (5.9694pt too high) detected at line 445
  []
 
 [21
 
  <./figures/llama-adapter.png>]
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 449.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 450.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
 LaTeX Font Warning: Font shape `OT1/lmss/m/sc' in size <10.95> not available
-(Font)              Font shape `OT1/lmr/m/sc' tried instead on input line 449.
+(Font)              Font shape `OT1/lmr/m/sc' tried instead on input line 450.
 
 [22
 
@@ -1471,7 +1471,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  128i,15n,123p,1942b,1930s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsso12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (25 pages, 34689040 bytes).
+Output written on main.pdf (25 pages, 34688972 bytes).
 PDF statistics:
  420 PDF objects out of 1000 (max. 8388607)
  287 compressed objects within 3 object streams
