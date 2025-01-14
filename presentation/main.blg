@@ -28,45 +28,45 @@ Warning--you've exceeded 500, the entry-string-size, for entry llama3
 while executing--line 2727 of file biblatex.bst
 *Please notify the bibstyle designer*
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 20 entries,
+You've used 21 entries,
             6399 wiz_defined-function locations,
-            1316 strings with 24861 characters,
-and the built_in function-call counts, 1370947 in all, are:
-= -- 139119
-> -- 7582
-< -- 638
-+ -- 60280
-- -- 4190
-* -- 95379
-:= -- 202007
+            1323 strings with 25155 characters,
+and the built_in function-call counts, 1382647 in all, are:
+= -- 140152
+> -- 7692
+< -- 658
++ -- 60695
+- -- 4238
+* -- 96208
+:= -- 203511
 add.period$ -- 0
-call.type$ -- 20
-change.case$ -- 325
+call.type$ -- 21
+change.case$ -- 335
 chr.to.int$ -- 54
-cite$ -- 38
-duplicate$ -- 159048
-empty$ -- 96747
-format.name$ -- 8970
-if$ -- 245698
+cite$ -- 40
+duplicate$ -- 160386
+empty$ -- 97702
+format.name$ -- 9066
+if$ -- 247924
 int.to.chr$ -- 0
-int.to.str$ -- 44
+int.to.str$ -- 46
 missing$ -- 0
-newline$ -- 4813
-num.names$ -- 942
-pop$ -- 20907
+newline$ -- 4865
+num.names$ -- 983
+pop$ -- 21321
 preamble$ -- 1
-purify$ -- 1802
+purify$ -- 1822
 quote$ -- 0
-skip$ -- 6982
+skip$ -- 7148
 stack$ -- 0
-substring$ -- 269052
-swap$ -- 12621
-text.length$ -- 1228
-text.prefix$ -- 21
+substring$ -- 270976
+swap$ -- 12807
+text.length$ -- 1252
+text.prefix$ -- 22
 top$ -- 1
-type$ -- 667
+type$ -- 701
 warning$ -- 0
-while$ -- 26977
+while$ -- 27175
 width$ -- 0
-write$ -- 4794
+write$ -- 4845
 (There were 2 warnings)

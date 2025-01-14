@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.16)  13 JAN 2025 23:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.16)  14 JAN 2025 17:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1206,239 +1206,366 @@ Package pdftex.def Info: figures/DeepLorIA_logo1.png  used on input line 78.
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc} <./figures/DeepLorIA_logo1.png>] [2
 
-] [3
-
 ]
-<figures/RNN-unrolled.png, id=75, 617.1858pt x 256.91985pt>
-File: figures/RNN-unrolled.png Graphic file (type png)
-<use figures/RNN-unrolled.png>
-Package pdftex.def Info: figures/RNN-unrolled.png  used on input line 141.
-(pdftex.def)             Requested size: 195.00348pt x 81.17323pt.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 141.
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 144.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/ot1lmtt.fd
+File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 144.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 141.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 144.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 141.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 144.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 141.
+(Font)              <9> on input line 144.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 141.
+(Font)              <6> on input line 144.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 141.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 141.
+(Font)              <5> on input line 144.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 144.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 141.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 144.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 141.
-LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <7> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 141.
-LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <5> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 141.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 141.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 141.
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <9> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 141.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 144.
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <6> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 141.
-LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 141.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/ot1lmtt.fd
-File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 144.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <5> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 144.
+<figures/finetune_success.png, id=70, 852.18375pt x 637.38126pt>
+File: figures/finetune_success.png Graphic file (type png)
+<use figures/finetune_success.png>
+Package pdftex.def Info: figures/finetune_success.png  used on input line 144.
+(pdftex.def)             Requested size: 195.00348pt x 145.84572pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 141.
+(Font)              <10.95> on input line 144.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 141.
+(Font)              <8> on input line 144.
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 141.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 144.
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <8> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 141.
- [4
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 144.
+<figures/finetune_bugs.pdf, id=71, 257.80707pt x 187.94855pt>
+File: figures/finetune_bugs.pdf Graphic file (type pdf)
+<use figures/finetune_bugs.pdf>
+Package pdftex.def Info: figures/finetune_bugs.pdf  used on input line 144.
+(pdftex.def)             Requested size: 197.17232pt x 143.74861pt.
 
-{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc} <./figures/RNN-unrolled.png>]
-<figures/LSTM3-chain.png, id=94, 806.89455pt x 303.17265pt>
-File: figures/LSTM3-chain.png Graphic file (type png)
-<use figures/LSTM3-chain.png>
-Package pdftex.def Info: figures/LSTM3-chain.png  used on input line 167.
-(pdftex.def)             Requested size: 195.00348pt x 73.26715pt.
- [5
+Overfull \vbox (0.41367pt too high) detected at line 144
+ []
 
- <./figures/LSTM3-chain.png>] [6
+[3
+
+{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc} <./figures/finetune_success.png> <./figures/finetune_bugs.pdf>]
+File: figures/finetune_success.png Graphic file (type png)
+<use figures/finetune_success.png>
+Package pdftex.def Info: figures/finetune_success.png  used on input line 144.
+(pdftex.def)             Requested size: 195.00348pt x 145.84572pt.
+File: figures/finetune_bugs.pdf Graphic file (type pdf)
+<use figures/finetune_bugs.pdf>
+Package pdftex.def Info: figures/finetune_bugs.pdf  used on input line 144.
+(pdftex.def)             Requested size: 197.17232pt x 143.74861pt.
+
+Overfull \vbox (0.41367pt too high) detected at line 144
+ []
+
+[4
 
 ]
-<figures/ed_encoder_decoder.png, id=118, 215.3646pt x 144.54pt>
-File: figures/ed_encoder_decoder.png Graphic file (type png)
-<use figures/ed_encoder_decoder.png>
-Package pdftex.def Info: figures/ed_encoder_decoder.png  used on input line 210.
-(pdftex.def)             Requested size: 58.50163pt x 39.2623pt.
-<figures/ed_encoder_only.png, id=119, 114.1866pt x 144.54pt>
-File: figures/ed_encoder_only.png Graphic file (type png)
-<use figures/ed_encoder_only.png>
-Package pdftex.def Info: figures/ed_encoder_only.png  used on input line 210.
-(pdftex.def)             Requested size: 31.2018pt x 39.49608pt.
-<figures/ed_decoder_only.png, id=120, 115.632pt x 144.54pt>
-File: figures/ed_decoder_only.png Graphic file (type png)
-<use figures/ed_decoder_only.png>
-Package pdftex.def Info: figures/ed_decoder_only.png  used on input line 210.
-(pdftex.def)             Requested size: 31.2018pt x 39.00204pt.
+File: figures/finetune_success.png Graphic file (type png)
+<use figures/finetune_success.png>
+Package pdftex.def Info: figures/finetune_success.png  used on input line 144.
+(pdftex.def)             Requested size: 195.00348pt x 145.84572pt.
+File: figures/finetune_bugs.pdf Graphic file (type pdf)
+<use figures/finetune_bugs.pdf>
+Package pdftex.def Info: figures/finetune_bugs.pdf  used on input line 144.
+(pdftex.def)             Requested size: 197.17232pt x 143.74861pt.
+
+Overfull \vbox (0.41367pt too high) detected at line 144
+ []
+
+[5
+
+]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 177.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 177.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 177.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <7> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 177.
+File: figures/finetune_success.png Graphic file (type png)
+<use figures/finetune_success.png>
+Package pdftex.def Info: figures/finetune_success.png  used on input line 177.
+(pdftex.def)             Requested size: 195.00348pt x 145.84572pt.
+File: figures/finetune_bugs.pdf Graphic file (type pdf)
+<use figures/finetune_bugs.pdf>
+Package pdftex.def Info: figures/finetune_bugs.pdf  used on input line 177.
+(pdftex.def)             Requested size: 197.17232pt x 143.74861pt.
+
+Overfull \vbox (0.41367pt too high) detected at line 177
+ []
+
+[6
+
+]
+<figures/RNN-unrolled.png, id=128, 617.1858pt x 256.91985pt>
+File: figures/RNN-unrolled.png Graphic file (type png)
+<use figures/RNN-unrolled.png>
+Package pdftex.def Info: figures/RNN-unrolled.png  used on input line 203.
+(pdftex.def)             Requested size: 195.00348pt x 81.17323pt.
  [7
 
-{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc} <./figures/ed_encoder_decoder.png> <./figures/ed_encoder_only.png> <./figures/ed_decoder_only.png>]
+ <./figures/RNN-unrolled.png>]
+<figures/LSTM3-chain.png, id=147, 806.89455pt x 303.17265pt>
+File: figures/LSTM3-chain.png Graphic file (type png)
+<use figures/LSTM3-chain.png>
+Package pdftex.def Info: figures/LSTM3-chain.png  used on input line 229.
+(pdftex.def)             Requested size: 195.00348pt x 73.26715pt.
+ [8
+
+ <./figures/LSTM3-chain.png>] [9
+
+]
+<figures/ed_encoder_decoder.png, id=173, 215.3646pt x 144.54pt>
 File: figures/ed_encoder_decoder.png Graphic file (type png)
 <use figures/ed_encoder_decoder.png>
-Package pdftex.def Info: figures/ed_encoder_decoder.png  used on input line 280.
+Package pdftex.def Info: figures/ed_encoder_decoder.png  used on input line 282.
+(pdftex.def)             Requested size: 58.50163pt x 39.2623pt.
+<figures/ed_encoder_only.png, id=174, 114.1866pt x 144.54pt>
+File: figures/ed_encoder_only.png Graphic file (type png)
+<use figures/ed_encoder_only.png>
+Package pdftex.def Info: figures/ed_encoder_only.png  used on input line 282.
+(pdftex.def)             Requested size: 31.2018pt x 39.49608pt.
+<figures/ed_decoder_only.png, id=175, 115.632pt x 144.54pt>
+File: figures/ed_decoder_only.png Graphic file (type png)
+<use figures/ed_decoder_only.png>
+Package pdftex.def Info: figures/ed_decoder_only.png  used on input line 282.
+(pdftex.def)             Requested size: 31.2018pt x 39.00204pt.
+ [10
+
+ <./figures/ed_encoder_decoder.png> <./figures/ed_encoder_only.png> <./figures/ed_decoder_only.png>]
+File: figures/ed_encoder_decoder.png Graphic file (type png)
+<use figures/ed_encoder_decoder.png>
+Package pdftex.def Info: figures/ed_encoder_decoder.png  used on input line 282.
+(pdftex.def)             Requested size: 58.50163pt x 39.2623pt.
+File: figures/ed_encoder_only.png Graphic file (type png)
+<use figures/ed_encoder_only.png>
+Package pdftex.def Info: figures/ed_encoder_only.png  used on input line 282.
+(pdftex.def)             Requested size: 31.2018pt x 39.49608pt.
+File: figures/ed_decoder_only.png Graphic file (type png)
+<use figures/ed_decoder_only.png>
+Package pdftex.def Info: figures/ed_decoder_only.png  used on input line 282.
+(pdftex.def)             Requested size: 31.2018pt x 39.00204pt.
+ [11
+
+]
+File: figures/ed_encoder_decoder.png Graphic file (type png)
+<use figures/ed_encoder_decoder.png>
+Package pdftex.def Info: figures/ed_encoder_decoder.png  used on input line 352.
 (pdftex.def)             Requested size: 54.168pt x 36.35324pt.
 File: figures/ed_encoder_only.png Graphic file (type png)
 <use figures/ed_encoder_only.png>
-Package pdftex.def Info: figures/ed_encoder_only.png  used on input line 280.
+Package pdftex.def Info: figures/ed_encoder_only.png  used on input line 352.
 (pdftex.def)             Requested size: 30.33394pt x 38.39554pt.
 File: figures/ed_decoder_only.png Graphic file (type png)
 <use figures/ed_decoder_only.png>
-Package pdftex.def Info: figures/ed_decoder_only.png  used on input line 280.
+Package pdftex.def Info: figures/ed_decoder_only.png  used on input line 352.
 (pdftex.def)             Requested size: 30.33394pt x 37.91695pt.
- [8
-
-]
-<figures/llm_1_fixed.png, id=163, 2771.5545pt x 1326.1545pt>
-File: figures/llm_1_fixed.png Graphic file (type png)
-<use figures/llm_1_fixed.png>
-Package pdftex.def Info: figures/llm_1_fixed.png  used on input line 289.
-(pdftex.def)             Requested size: 411.67549pt x 196.97198pt.
- [9
-
- <./figures/llm_1_fixed.png>]
-<figures/llm_2_fixed.png, id=172, 2771.5545pt x 1326.1545pt>
-File: figures/llm_2_fixed.png Graphic file (type png)
-<use figures/llm_2_fixed.png>
-Package pdftex.def Info: figures/llm_2_fixed.png  used on input line 296.
-(pdftex.def)             Requested size: 411.67549pt x 196.97198pt.
- [10
-
- <./figures/llm_2_fixed.png>]
-<figures/llm_3_fixed.png, id=181, 2771.5545pt x 1326.1545pt>
-File: figures/llm_3_fixed.png Graphic file (type png)
-<use figures/llm_3_fixed.png>
-Package pdftex.def Info: figures/llm_3_fixed.png  used on input line 303.
-(pdftex.def)             Requested size: 411.67549pt x 196.97198pt.
- [11
-
- <./figures/llm_3_fixed.png>]
-<figures/llm_4_fixed.png, id=190, 2771.5545pt x 1326.1545pt>
-File: figures/llm_4_fixed.png Graphic file (type png)
-<use figures/llm_4_fixed.png>
-Package pdftex.def Info: figures/llm_4_fixed.png  used on input line 310.
-(pdftex.def)             Requested size: 411.67549pt x 196.97198pt.
  [12
 
- <./figures/llm_4_fixed.png>]
-<figures/llm_5_fixed.png, id=199, 2771.5545pt x 1326.1545pt>
-File: figures/llm_5_fixed.png Graphic file (type png)
-<use figures/llm_5_fixed.png>
-Package pdftex.def Info: figures/llm_5_fixed.png  used on input line 317.
+]
+<figures/llm_1_fixed.png, id=223, 2771.5545pt x 1326.1545pt>
+File: figures/llm_1_fixed.png Graphic file (type png)
+<use figures/llm_1_fixed.png>
+Package pdftex.def Info: figures/llm_1_fixed.png  used on input line 361.
 (pdftex.def)             Requested size: 411.67549pt x 196.97198pt.
  [13
 
- <./figures/llm_5_fixed.png>]
-<figures/llm_6_fixed.png, id=210, 2771.5545pt x 1326.1545pt>
-File: figures/llm_6_fixed.png Graphic file (type png)
-<use figures/llm_6_fixed.png>
-Package pdftex.def Info: figures/llm_6_fixed.png  used on input line 324.
+ <./figures/llm_1_fixed.png>]
+<figures/llm_2_fixed.png, id=233, 2771.5545pt x 1326.1545pt>
+File: figures/llm_2_fixed.png Graphic file (type png)
+<use figures/llm_2_fixed.png>
+Package pdftex.def Info: figures/llm_2_fixed.png  used on input line 368.
 (pdftex.def)             Requested size: 411.67549pt x 196.97198pt.
  [14
 
- <./figures/llm_6_fixed.png>]
-<figures/llm_autoregressive_1.png, id=219, 1666.72687pt x 655.30823pt>
-File: figures/llm_autoregressive_1.png Graphic file (type png)
-<use figures/llm_autoregressive_1.png>
-Package pdftex.def Info: figures/llm_autoregressive_1.png  used on input line 332.
-(pdftex.def)             Requested size: 390.00697pt x 153.33751pt.
+ <./figures/llm_2_fixed.png>]
+<figures/llm_3_fixed.png, id=242, 2771.5545pt x 1326.1545pt>
+File: figures/llm_3_fixed.png Graphic file (type png)
+<use figures/llm_3_fixed.png>
+Package pdftex.def Info: figures/llm_3_fixed.png  used on input line 375.
+(pdftex.def)             Requested size: 411.67549pt x 196.97198pt.
  [15
 
- <./figures/llm_autoregressive_1.png>]
-<figures/llm_autoregressive_2.png, id=228, 1669.07565pt x 655.85025pt>
-File: figures/llm_autoregressive_2.png Graphic file (type png)
-<use figures/llm_autoregressive_2.png>
-Package pdftex.def Info: figures/llm_autoregressive_2.png  used on input line 344.
-(pdftex.def)             Requested size: 390.00697pt x 153.24417pt.
+ <./figures/llm_3_fixed.png>]
+<figures/llm_4_fixed.png, id=251, 2771.5545pt x 1326.1545pt>
+File: figures/llm_4_fixed.png Graphic file (type png)
+<use figures/llm_4_fixed.png>
+Package pdftex.def Info: figures/llm_4_fixed.png  used on input line 382.
+(pdftex.def)             Requested size: 411.67549pt x 196.97198pt.
  [16
 
- <./figures/llm_autoregressive_2.png>]
-Overfull \vbox (11.21335pt too high) detected at line 392
- []
+ <./figures/llm_4_fixed.png>]
+<figures/llm_5_fixed.png, id=260, 2771.5545pt x 1326.1545pt>
+File: figures/llm_5_fixed.png Graphic file (type png)
+<use figures/llm_5_fixed.png>
+Package pdftex.def Info: figures/llm_5_fixed.png  used on input line 389.
+(pdftex.def)             Requested size: 411.67549pt x 196.97198pt.
+ [17
 
-[17
-
-]
-<figures/pretrain_finetune_1.png, id=244, 328.1058pt x 184.64986pt>
-File: figures/pretrain_finetune_1.png Graphic file (type png)
-<use figures/pretrain_finetune_1.png>
-Package pdftex.def Info: figures/pretrain_finetune_1.png  used on input line 399.
-(pdftex.def)             Requested size: 346.67653pt x 195.10521pt.
+ <./figures/llm_5_fixed.png>]
+<figures/llm_6_fixed.png, id=269, 2771.5545pt x 1326.1545pt>
+File: figures/llm_6_fixed.png Graphic file (type png)
+<use figures/llm_6_fixed.png>
+Package pdftex.def Info: figures/llm_6_fixed.png  used on input line 396.
+(pdftex.def)             Requested size: 411.67549pt x 196.97198pt.
  [18
 
- <./figures/pretrain_finetune_1.png>]
-<figures/pretrain_finetune_2.png, id=254, 328.1058pt x 184.64986pt>
-File: figures/pretrain_finetune_2.png Graphic file (type png)
-<use figures/pretrain_finetune_2.png>
-Package pdftex.def Info: figures/pretrain_finetune_2.png  used on input line 406.
-(pdftex.def)             Requested size: 346.67653pt x 195.10521pt.
+ <./figures/llm_6_fixed.png>]
+<figures/llm_autoregressive_1.png, id=278, 1666.72687pt x 655.30823pt>
+File: figures/llm_autoregressive_1.png Graphic file (type png)
+<use figures/llm_autoregressive_1.png>
+Package pdftex.def Info: figures/llm_autoregressive_1.png  used on input line 404.
+(pdftex.def)             Requested size: 390.00697pt x 153.33751pt.
  [19
 
- <./figures/pretrain_finetune_2.png>]
-<figures/llama-adapter-simple.png, id=264, 190.25078pt x 205.42747pt>
-File: figures/llama-adapter-simple.png Graphic file (type png)
-<use figures/llama-adapter-simple.png>
-Package pdftex.def Info: figures/llama-adapter-simple.png  used on input line 426.
-(pdftex.def)             Requested size: 173.33826pt x 187.16498pt.
+ <./figures/llm_autoregressive_1.png>]
+<figures/llm_autoregressive_2.png, id=288, 1669.07565pt x 655.85025pt>
+File: figures/llm_autoregressive_2.png Graphic file (type png)
+<use figures/llm_autoregressive_2.png>
+Package pdftex.def Info: figures/llm_autoregressive_2.png  used on input line 416.
+(pdftex.def)             Requested size: 390.00697pt x 153.24417pt.
+ [20
 
-Overfull \vbox (5.47559pt too high) detected at line 426
- []
-
-[20
-
- <./figures/llama-adapter-simple.png>]
-<figures/llama-adapter.png, id=275, 190.25078pt x 205.9695pt>
-File: figures/llama-adapter.png Graphic file (type png)
-<use figures/llama-adapter.png>
-Package pdftex.def Info: figures/llama-adapter.png  used on input line 445.
-(pdftex.def)             Requested size: 173.33826pt x 187.6588pt.
-
-Overfull \vbox (5.9694pt too high) detected at line 445
+ <./figures/llm_autoregressive_2.png>]
+Overfull \vbox (11.21335pt too high) detected at line 464
  []
 
 [21
 
- <./figures/llama-adapter.png>]
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 450.
+{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
+Overfull \vbox (11.21335pt too high) detected at line 464
+ []
+
+[22
+
+]
+<figures/pretrain_finetune_1.png, id=311, 328.1058pt x 184.64986pt>
+File: figures/pretrain_finetune_1.png Graphic file (type png)
+<use figures/pretrain_finetune_1.png>
+Package pdftex.def Info: figures/pretrain_finetune_1.png  used on input line 473.
+(pdftex.def)             Requested size: 346.67653pt x 195.10521pt.
+ [23
+
+ <./figures/pretrain_finetune_1.png>]
+File: figures/pretrain_finetune_1.png Graphic file (type png)
+<use figures/pretrain_finetune_1.png>
+Package pdftex.def Info: figures/pretrain_finetune_1.png  used on input line 473.
+(pdftex.def)             Requested size: 346.67653pt x 195.10521pt.
+ [24
+
+]
+<figures/pretrain_finetune_2.png, id=327, 328.1058pt x 184.64986pt>
+File: figures/pretrain_finetune_2.png Graphic file (type png)
+<use figures/pretrain_finetune_2.png>
+Package pdftex.def Info: figures/pretrain_finetune_2.png  used on input line 480.
+(pdftex.def)             Requested size: 346.67653pt x 195.10521pt.
+ [25
+
+ <./figures/pretrain_finetune_2.png>]
+File: figures/pretrain_finetune_2.png Graphic file (type png)
+<use figures/pretrain_finetune_2.png>
+Package pdftex.def Info: figures/pretrain_finetune_2.png  used on input line 494.
+(pdftex.def)             Requested size: 173.33496pt x 97.5512pt.
+ [26
+
+]
+File: figures/pretrain_finetune_2.png Graphic file (type png)
+<use figures/pretrain_finetune_2.png>
+Package pdftex.def Info: figures/pretrain_finetune_2.png  used on input line 494.
+(pdftex.def)             Requested size: 173.33496pt x 97.5512pt.
+ [27
+
+]
+<figures/llama-adapter-simple.png, id=350, 190.25078pt x 205.42747pt>
+File: figures/llama-adapter-simple.png Graphic file (type png)
+<use figures/llama-adapter-simple.png>
+Package pdftex.def Info: figures/llama-adapter-simple.png  used on input line 528.
+(pdftex.def)             Requested size: 173.33826pt x 187.16498pt.
+
+Overfull \vbox (5.47559pt too high) detected at line 528
+ []
+
+[28
+
+ <./figures/llama-adapter-simple.png>]
+File: figures/llama-adapter-simple.png Graphic file (type png)
+<use figures/llama-adapter-simple.png>
+Package pdftex.def Info: figures/llama-adapter-simple.png  used on input line 528.
+(pdftex.def)             Requested size: 173.33826pt x 187.16498pt.
+
+Overfull \vbox (5.47559pt too high) detected at line 528
+ []
+
+[29
+
+]
+<figures/llama-adapter.png, id=377, 190.25078pt x 205.9695pt>
+File: figures/llama-adapter.png Graphic file (type png)
+<use figures/llama-adapter.png>
+Package pdftex.def Info: figures/llama-adapter.png  used on input line 553.
+(pdftex.def)             Requested size: 173.33826pt x 187.6588pt.
+
+Overfull \vbox (5.9694pt too high) detected at line 553
+ []
+
+[30
+
+ <./figures/llama-adapter.png>] [31
+
+]
+<figures/qr_code.png, id=398, 3011.25pt x 3011.25pt>
+File: figures/qr_code.png Graphic file (type png)
+<use figures/qr_code.png>
+Package pdftex.def Info: figures/qr_code.png  used on input line 572.
+(pdftex.def)             Requested size: 173.33496pt x 173.31554pt.
+
+Overfull \vbox (1.37553pt too high) detected at line 572
+ []
+
+[32
+
+ <./figures/qr_code.png>]
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 577.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
 LaTeX Font Warning: Font shape `OT1/lmss/m/sc' in size <10.95> not available
-(Font)              Font shape `OT1/lmr/m/sc' tried instead on input line 450.
+(Font)              Font shape `OT1/lmr/m/sc' tried instead on input line 577.
 
-[22
+[33
 
-{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rmsc.enc}] [23
-
-
-] [24
+{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rmsc.enc}] [34
 
 
-] [25
+] [35
+
+
+] [36
 
 
 ]
@@ -1463,18 +1590,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38191 strings out of 474116
- 754447 string characters out of 5743681
- 1945187 words of memory out of 5000000
- 59786 multiletter control sequences out of 15000+600000
- 625204 words of font info for 92 fonts, out of 8000000 for 9000
+ 38292 strings out of 474116
+ 756933 string characters out of 5743681
+ 1946187 words of memory out of 5000000
+ 59863 multiletter control sequences out of 15000+600000
+ 628875 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,15n,123p,1942b,1930s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsso12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (25 pages, 34688972 bytes).
+ 128i,15n,123p,1942b,1929s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsso12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsso8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on main.pdf (36 pages, 35565975 bytes).
 PDF statistics:
- 420 PDF objects out of 1000 (max. 8388607)
- 287 compressed objects within 3 object streams
- 74 named destinations out of 1000 (max. 500000)
- 207 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 552 PDF objects out of 1000 (max. 8388607)
+ 373 compressed objects within 4 object streams
+ 97 named destinations out of 1000 (max. 500000)
+ 228 words of extra memory for PDF output out of 10000 (max. 10000000)
 

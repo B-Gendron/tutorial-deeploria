@@ -32,14 +32,14 @@
 % Beamer template customisation
 \beamertemplatenavigationsymbolsempty
 \setbeamertemplate{page number in head/foot}[totalframenumber] % numéros de slides
-\setbeamercovered{transparent}
+\setbeamercovered{invisible}
 \usetheme{Madrid}
 \usecolortheme{default}
 
 % Setup colors title page + footline
 % \definecolor{deepblue}{RGB}{0, 50, 100} 
 \definecolor{deepblue}{RGB}{140, 0, 51} 
-\definecolor{roose}{RGB}{226, 0, 122}
+\definecolor{roose}{RGB}{140, 0, 51}
 \definecolor{gold}{rgb}{1.0, 0.84, 0.0}
 \definecolor{silver}{rgb}{0.75, 0.75, 0.75}
 \definecolor{darkgreen}{rgb}{0.0, 0.8, 0.0}
@@ -110,8 +110,70 @@ Experience in LLM fine-tuning
 
 \section{Context}
 
-\begin{frame}{Context}
+\begin{frame}{Experimenting LLM Fine-Tuning}
+    \begin{columns}
+        \renewcommand{\thempfootnote}{}
+        \begin{column}{0.5\linewidth}
+            \vspace{-0.5cm}
+            \begin{figure}
+                \centering
+                \caption*{\centering Many successful LLM fine-tunings?\\{\footnotesize\url{https://huggingface.co/}}}
+                \vspace{-0.3cm}
+                \includegraphics[width=0.9\textwidth]{finetune_success.png}
+            \end{figure}
+            % \vspace{-0.5cm}
+            \begin{itemize}
+                \item<3-> Fine-tuning LLMs relies on obscure "magic formulas"
+            \end{itemize}
+        \end{column}
+        \begin{column}{0.5\linewidth}
+            \vspace{-0.8cm}
+            \begin{figure}
+                \visible<2->{
+                \centering
+                \caption*{\centering Fine-tuning LLMs in real life?}
+                \includegraphics[width=0.91\textwidth]{finetune_bugs.pdf}
+                }
+            \end{figure}
+            % \vspace{-0.5cm}
+            \begin{itemize}
+                \item<3-> Fine-tuning LLMs is hard
+            \end{itemize}
+        \end{column}
+    \end{columns}
+\end{frame}
 
+\begin{frame}{Experimenting LLM Fine-Tuning}
+    \begin{columns}
+        \renewcommand{\thempfootnote}{}
+        \begin{column}{0.5\linewidth}
+            \vspace{-0.5cm}
+            \begin{figure}
+                \centering
+                \caption*{\centering Many successful LLM fine-tunings?\\{\small\url{https://huggingface.co/}}}
+                \vspace{-0.3cm}
+                \includegraphics[width=0.9\textwidth]{finetune_success.png}
+            \end{figure}
+            % \vspace{-0.5cm}
+            \setbeamertemplate{itemize items}{} 
+            \begin{itemize}
+                \item {\color{red}\ding{55}} Fine-tuning LLMs relies on obscure "magic formulas"
+            \end{itemize}
+        \end{column}
+        \begin{column}{0.5\linewidth}
+            \vspace{-1cm}
+            \begin{figure}
+                \centering
+                \caption*{\centering Fine-tuning LLMs in real life?}
+                \includegraphics[width=0.91\textwidth]{finetune_bugs.pdf}
+            \end{figure}
+            % \vspace{-0.5cm}
+            \setbeamertemplate{itemize items}{} 
+            \begin{itemize}
+                \item {\color{red}\ding{55}} Fine-tuning LLMs is hard
+            \end{itemize}
+        \end{column}
+    \end{columns}
 \end{frame}
 
 \begin{frame}{Deep-Learning-Based Sequence Modeling: Recurrent Models (1)}
@@ -175,20 +237,30 @@ Experience in LLM fine-tuning
 
 \begin{columns}
     \begin{column}{0.7\linewidth}
-        \vspace{-0.3cm}
+        \vspace{-0.2cm}
         \begin{center}
         \textbf{LLMs scale Transformers by stacking encoders and/or decoders together}
         \end{center}
-        \vspace{0.6cm}
+        \vspace{0.1cm}
         \begin{itemize}
             \item Parallelizable and optimized versions exist (e.g. quantization)
             \item Enable deeper and broader knowledge representation
             \item Large context window allows for more accurate generation
-            % \item Trained on massive corpora, enabling zero-shot evaluation
         \end{itemize}
-    \vspace{0.6cm}
-    TODO define fine-tuning\\
-    $\longrightarrow$ Fine-tuning enhances the capabilities of LLMs, making them versatile for a wide range of tasks
+        \vspace{0.3cm}
+        \visible<2->{
+        \begin{center}
+            \textbf{Fine-tuning adapts an LLM to a specific task through further parameter updates}
+        \end{center}
+        \vspace{0.1cm}
+        \begin{itemize}
+            \item Can be performed with any LLM structure, but:
+            \begin{itemize}
+                \item There are \textsl{required structures} for some specific tasks
+                \item There are \textsl{preferred models} for some specific tasks
+            \end{itemize}
+        \end{itemize}
+        }
     \end{column}
     \begin{column}{0.3\linewidth}
         \begin{figure}
@@ -358,7 +430,7 @@ Experience in LLM fine-tuning
                     GPT-4 turbo & 1.8T       & 120    & 128k            \\
                     Claude 2.1  & 12B        & -      & 200k            \\ \bottomrule
                 \end{tabular}
-                \caption{\centering Some \textsl{closed-source} models specifications}
+                \caption{\centering Some \textsl{closed-source} model specifications}
             \end{table}
             \vspace{-0.4cm}
             \begin{table}[]
@@ -370,7 +442,7 @@ Experience in LLM fine-tuning
                 Qwen 2.5     & 0.5B-72B   & 24-80  & 32k - 128k     \\
                 Mistral-v0.3 & 7B         & 32     & 32k            \\ \bottomrule
                 \end{tabular}
-                \caption{\centering Some \textsl{open-weights} models specifications}
+                \caption{\centering Some \textsl{open-weights} model specifications}
             \end{table}
         \end{column}
         \begin{column}{0.4\linewidth}
@@ -380,11 +452,11 @@ Experience in LLM fine-tuning
             \end{center}
             \vspace{0.5cm}
             \begin{itemize}
-                \item Most models involve several gigabytes in RAM GPU to perform inference
-                \item Updating each parameter value during fine-tuning would be too costly
+                \item <2-> Most models involve several gigabytes in RAM GPU to perform inference
+                \item <2-> Updating each parameter value during fine-tuning would be too costly
             \end{itemize}
-            \vspace{0.2cm}
-            $\longrightarrow$ fine-tuning should be \textbf{efficient}
+            \vspace{0.3cm}
+            \visible<2->{$\longrightarrow$ fine-tuning should be \textbf{efficient}}
         \end{column}
     \end{columns}
     
@@ -392,10 +464,12 @@ Experience in LLM fine-tuning
 \end{frame}
 
 \begin{frame}{Fine-Tuning as an \textsl{Affinage}: the Cheese Analogy}
-    \begin{figure}
-        \centering
-        \includegraphics[width=0.8\textwidth]{pretrain_finetune_1.png}
-    \end{figure}
+    \visible<2>{
+        \begin{figure}
+            \centering
+            \includegraphics[width=0.8\textwidth]{pretrain_finetune_1.png}
+        \end{figure}
+    }
 \end{frame}
 
 \begin{frame}{Fine-Tuning as an \textsl{Affinage}: the Cheese Analogy}
@@ -405,8 +479,22 @@ Experience in LLM fine-tuning
     \end{figure}
 \end{frame}
 
+\begin{frame}{Fine-Tuning as an \textsl{Affinage}: the Cheese Analogy}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.4\textwidth]{pretrain_finetune_2.png}
+    \end{figure}
+    Fine-tuning, as cheese maturing phase, modifies \textbf{in place} its given instance.
+    \begin{itemize}
+        \item Ensure fine-tuning is performed in the right conditions
+        \item Check pre-trained baseline reliability
+        \item Test several (adapted) pre-trained baselines for one fine-tuning experiment
+    \end{itemize}
+    \visible<2->{$\longrightarrow$ fine-tuning should be \textbf{stable} and \textbf{consistent} with pre-trained baseline}
+\end{frame}
 
-\begin{frame}{Fine-Tuning With Adapters~\cite{houlsby2019parameterefficienttransferlearningnlp}}
+
+\begin{frame}{Efficient Fine-Tuning With Adapters~\cite{houlsby2019parameterefficienttransferlearningnlp}}
     \begin{columns}
         \begin{column}{0.5\linewidth}
             \vspace{-0.2cm}
@@ -417,12 +505,26 @@ Experience in LLM fine-tuning
             \end{figure}
         \end{column}
         \begin{column}{0.5\linewidth}
+            \vspace{-0.2cm}
+            \begin{center}
+            \textbf{Adapters layers are inserted to enable parameter-efficient fine-tuning\footnote{\scriptsize\url{https://huggingface.co/PEFT}}}
+            \end{center}
+            % \vspace{0.1cm}
+            Common usage:
             \begin{itemize}
-                \item Adapters
+                \item Freeze all pre-trained model layers
+                \item Insert trainable MLP layers into attention blocks (query, value) and/or model head
             \end{itemize}
+            \vspace{0.1cm}
+            \visible<2->{Advantages:
+            \begin{itemize}
+                \item Fewer param. updates than full fine-tuning
+                \item Helps reduce catastrophic forgetting~\cite{DBLP:journals/corr/abs-2005-00247}
+                \item Easy to share fine-tuned models\footnote{\scriptsize\url{https://adapterhub.ml/}}
+            \end{itemize}
+            }
         \end{column}
     \end{columns}
-
 \end{frame}
 
 \begin{frame}{Efficient Fine-Tuning With LoRA Adapters~\cite{hu2021loralowrankadaptationlarge}}
@@ -436,12 +538,37 @@ Experience in LLM fine-tuning
             \end{figure}
         \end{column}
         \begin{column}{0.5\linewidth}
+            \vspace{-0.5cm}
+            \begin{center}
+            \textbf{LoRA: Low-Rank Adaptation\\A specific adapter block structure}
+            \end{center}
+            \vspace{0.1cm}
             \begin{itemize}
-                \item LoRA = Low-Rank Adaptation
-                \item Quantized version QLoRA~\cite{dettmers2023qloraefficientfinetuningquantized}
+                \item Information from the model can be represented (almost) equally well in a lower dimensional space
+                \item The rank $r$ of the lower dim. space should be determined by hyperparameter tuning
+                \item Quantized versions: QLoRA~\cite{dettmers2023qloraefficientfinetuningquantized}
             \end{itemize}
         \end{column}
     \end{columns}    
+\end{frame}
+
+\begin{frame}{Wrap-Up}
+    
+\end{frame}
+
+\begin{frame}[plain]
+    \begin{center}
+        \vspace{0.5cm}
+        {\color{roose}\Huge Thanks for your attention!}
+        
+        \vspace{0.3cm}
+        
+        \begin{figure}[h]
+            \centering
+            \includegraphics[width=0.4\textwidth]{qr_code.png}
+            \caption{\centering Practical session: \url{https://github.com/B-Gendron/tutorial-deeploria/lab/}}
+        \end{figure}
+    \end{center}
 \end{frame}
 
 \begin{frame}[t,allowframebreaks,noframenumbering]

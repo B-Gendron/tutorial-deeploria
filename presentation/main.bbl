@@ -4292,6 +4292,58 @@
     \field{year}{2019}
   \endentry
 
+  \entry{DBLP:journals/corr/abs-2005-00247}{article}{}
+    \name{author}{5}{}{%
+      {{hash=PJ}{%
+         family={Pfeiffer},
+         familyi={P\bibinitperiod},
+         given={Jonas},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Kamath},
+         familyi={K\bibinitperiod},
+         given={Aishwarya},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={R{\"{u}}ckl{\'{e}}},
+         familyi={R\bibinitperiod},
+         given={Andreas},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CK}{%
+         family={Cho},
+         familyi={C\bibinitperiod},
+         given={Kyunghyun},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=GI}{%
+         family={Gurevych},
+         familyi={G\bibinitperiod},
+         given={Iryna},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PJ+1}
+    \strng{fullhash}{PJKARACKGI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \verb{eprint}
+    \verb 2005.00247
+    \endverb
+    \field{title}{AdapterFusion: Non-Destructive Task Composition for Transfer Learning}
+    \verb{url}
+    \verb https://arxiv.org/abs/2005.00247
+    \endverb
+    \field{volume}{abs/2005.00247}
+    \field{journaltitle}{CoRR}
+    \field{eprinttype}{arXiv}
+    \field{year}{2020}
+  \endentry
+
   \entry{mbert}{article}{}
     \name{author}{3}{}{%
       {{hash=PT}{%
