@@ -121,7 +121,7 @@ Experience in LLM fine-tuning
                 \vspace{-0.3cm}
                 \includegraphics[width=0.9\textwidth]{finetune_success.png}
             \end{figure}
-            % \vspace{-0.5cm}
+            \vspace{-0.3cm}
             \begin{itemize}
                 \item<3-> Fine-tuning LLMs relies on obscure "magic formulas"
             \end{itemize}
@@ -135,7 +135,7 @@ Experience in LLM fine-tuning
                 \includegraphics[width=0.91\textwidth]{finetune_bugs.pdf}
                 }
             \end{figure}
-            % \vspace{-0.5cm}
+            \vspace{-0.1cm}
             \begin{itemize}
                 \item<3-> Fine-tuning LLMs is hard
             \end{itemize}
@@ -150,24 +150,23 @@ Experience in LLM fine-tuning
             \vspace{-0.5cm}
             \begin{figure}
                 \centering
-                \caption*{\centering Many successful LLM fine-tunings?\\{\small\url{https://huggingface.co/}}}
+                \caption*{\centering Many successful LLM fine-tunings?\\{\footnotesize\url{https://huggingface.co/}}}
                 \vspace{-0.3cm}
                 \includegraphics[width=0.9\textwidth]{finetune_success.png}
             \end{figure}
-            % \vspace{-0.5cm}
+            \vspace{-0.3cm}
             \setbeamertemplate{itemize items}{} 
             \begin{itemize}
                 \item {\color{red}\ding{55}} Fine-tuning LLMs relies on obscure "magic formulas"
             \end{itemize}
         \end{column}
         \begin{column}{0.5\linewidth}
-            \vspace{-1cm}
+            \vspace{-0.8cm}
             \begin{figure}
                 \centering
                 \caption*{\centering Fine-tuning LLMs in real life?}
                 \includegraphics[width=0.91\textwidth]{finetune_bugs.pdf}
             \end{figure}
-            % \vspace{-0.5cm}
             \setbeamertemplate{itemize items}{} 
             \begin{itemize}
                 \item {\color{red}\ding{55}} Fine-tuning LLMs is hard
@@ -229,8 +228,65 @@ Experience in LLM fine-tuning
 \end{frame}
 
 \begin{frame}{Attention Principle~\cite{Bahdanau2014NeuralMT} and Transformer Model~\cite{DBLP:journals/corr/VaswaniSPUJGKP17}}
-    
+    \begin{columns}
+        \renewcommand{\thempfootnote}{}
+        \begin{column}{0.45\linewidth}
+            \vspace{-0.3cm}
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.85\textwidth]{attention_1.png}
+            \end{figure}
+            \vspace{-0.4cm}
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.7\textwidth]{attention_2.png}
+                \caption{\centering Attention principle$^1$}
+            \end{figure}
+        \end{column}
+        \begin{column}{0.55\linewidth}
+            \begin{itemize}
+                \item \textbf{Query} $Q$: current token asking for context
+                \item \textbf{Key} $K$: all tokens defining where to focus
+                \item \textbf{Value} $V$: all tokens information
+                \item $d_k$: embedding dimension\footnote{$^1$\url{https://learnopencv.com/attention-mechanism-in-transformer-neural-networks/}}
+            \end{itemize}
+            \vspace{0.3cm}
+            \begin{equation*}
+                \text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^\top}{\sqrt{d_k}}\right)V
+            \end{equation*}
+            \vspace{1cm}
+        \end{column}
+    \end{columns}
 \end{frame}
+
+
+\begin{frame}{Attention Principle~\cite{Bahdanau2014NeuralMT} and Transformer Model~\cite{DBLP:journals/corr/VaswaniSPUJGKP17}}
+    \begin{columns}
+        \renewcommand{\thempfootnote}{\arabic{footnote}}
+        \begin{column}{0.45\linewidth}
+            \vspace{-0.3cm}
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.65\textwidth]{transformer.png}
+                \caption{\centering Transformer architecture from the original paper\footnote{\tiny$^3$\url{https://learnopencv.com/attention-mechanism-in-transformer-neural-networks/}}}
+            \end{figure}            
+        \end{column}
+        \begin{column}{0.55\linewidth}
+            \vspace{-0.7cm}
+            \begin{itemize}
+                \item \textbf{Query} $Q$: current token asking for context
+                \item \textbf{Key} $K$: all tokens defining where to focus
+                \item \textbf{Value} $V$: all tokens information
+                \item $d_k$: embedding dimension
+            \end{itemize}
+            \vspace{0.3cm}
+            \begin{equation*}
+                \text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^\top}{\sqrt{d_k}}\right)V
+            \end{equation*}
+        \end{column}
+    \end{columns}
+\end{frame}
+
 
 \begin{frame}{From Transformer-Based Models to Large Language Models (LLMs)}
 % The liberty of building behind enc only, dec only, enc dec, which structure for which application
@@ -463,7 +519,7 @@ Experience in LLM fine-tuning
     
 \end{frame}
 
-\begin{frame}{Fine-Tuning as an \textsl{Affinage}: the Cheese Analogy}
+\begin{frame}{Fine-Tuning is an \textsl{Affinage}: the Cheese Analogy}
     \visible<2>{
         \begin{figure}
             \centering
@@ -472,7 +528,7 @@ Experience in LLM fine-tuning
     }
 \end{frame}
 
-\begin{frame}{Fine-Tuning as an \textsl{Affinage}: the Cheese Analogy}
+\begin{frame}{Fine-Tuning is an \textsl{Affinage}: the Cheese Analogy}
     \begin{figure}
         \centering
         \includegraphics[width=0.8\textwidth]{pretrain_finetune_2.png}
@@ -550,10 +606,6 @@ Experience in LLM fine-tuning
             \end{itemize}
         \end{column}
     \end{columns}    
-\end{frame}
-
-\begin{frame}{Wrap-Up}
-    
 \end{frame}
 
 \begin{frame}[plain]
