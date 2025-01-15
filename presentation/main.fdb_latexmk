@@ -1,15 +1,15 @@
 # Fdb version 4
-["bibtex main"] 1736925213.59133 "main.aux" "main.bbl" "main" 1736925278.82884 0
-  "./main-blx.bib" 1736925278.37224 342 b26de64ef415b147aba990072d892ad3 ""
+["bibtex main"] 1736925213.59133 "main.aux" "main.bbl" "main" 1736933849.75315 0
+  "./main-blx.bib" 1736933849.31283 342 b26de64ef415b147aba990072d892ad3 ""
   "./references.bib" 1736871373.67454 21137 b3430a672133cba46cf58d8f9b998c0a ""
   "/usr/local/texlive/2024/texmf-dist/bibtex/bst/biblatex/biblatex.bst" 1678141846 65484 b7949c47a88ed6dca66ebc7a04577312 ""
-  "main.aux" 1736925278.36563 10820 55098104591e9ef8a561d9cb0fd6a47e "pdflatex"
+  "main.aux" 1736933849.30719 10820 55098104591e9ef8a561d9cb0fd6a47e "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1736925246.29873 "/Users/bgendron/Desktop/code/tutorial-deeploria/presentation/main.tex" "main.pdf" "main" 1736925278.82901 0
-  "/Users/bgendron/Desktop/code/tutorial-deeploria/presentation/main.tex" 1736925213.24678 25127 0be130fcc432ec162bcab9c296bbe652 ""
+["pdflatex"] 1736933817.38045 "/Users/bgendron/Desktop/code/tutorial-deeploria/presentation/main.tex" "main.pdf" "main" 1736933849.75335 0
+  "/Users/bgendron/Desktop/code/tutorial-deeploria/presentation/main.tex" 1736933817.01474 25127 4d297ce3d489d8199b4fa43cbeb7a854 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1202520719 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1202520719 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -329,12 +329,12 @@
   "figures/pretrain_finetune_2.png" 1736756110.3016 711838 b746faaeb99d4a08b1c31b6dbc40aed5 ""
   "figures/qr_code.png" 1736872162.27998 52488 e54bae7ef2a4d68d15988384380f192c ""
   "figures/transformer.png" 1736885016.42529 57033 abadb4340437f73492458466e998bcb4 ""
-  "main.aux" 1736925278.36563 10820 55098104591e9ef8a561d9cb0fd6a47e "pdflatex"
+  "main.aux" 1736933849.30719 10820 55098104591e9ef8a561d9cb0fd6a47e "pdflatex"
   "main.bbl" 1736925213.82746 126012 393f1ff3bacf2eae6b1e5c2f90f98dba "bibtex main"
-  "main.nav" 1736925278.37315 3516 6d0e675ca2ab4d57277883f72c54cbe2 "pdflatex"
-  "main.out" 1736925278.36862 451 dcfd50f775b94e4771b612d0231b8a91 "pdflatex"
-  "main.run.xml" 1736925278.37306 2556 a0fac511a363462afe9ea07acffcc3b0 "pdflatex"
-  "main.tex" 1736925213.24678 25127 0be130fcc432ec162bcab9c296bbe652 ""
+  "main.nav" 1736933849.31356 3516 6d0e675ca2ab4d57277883f72c54cbe2 "pdflatex"
+  "main.out" 1736933849.30978 451 dcfd50f775b94e4771b612d0231b8a91 "pdflatex"
+  "main.run.xml" 1736933849.31349 2556 a0fac511a363462afe9ea07acffcc3b0 "pdflatex"
+  "main.tex" 1736933817.01474 25127 4d297ce3d489d8199b4fa43cbeb7a854 ""
   (generated)
   "main-blx.bib"
   "main.aux"
